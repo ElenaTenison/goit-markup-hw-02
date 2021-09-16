@@ -1,3 +1,124 @@
-.body {
-  background-color: darkblue;
+:root {
+  --primery-title-color: #ffffff;
+  --secondary-title-color: #212121;
+  --primery-text-color: #757575;
+  --accent-color: #2196f3;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.03em;
+}
+
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+
+/* HEADER */
+
+.header-logo {
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--accent-color);
+  color: var(--secondary-title-color);
+}
+
+.header-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.33;
+  color: var(--secondary-title-color);
+}
+
+.header-contacts {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.33;
+  color: var(--primery-text-color);
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: var(--accent-color);
+}
+
+/* HERO */
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1, 36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--primery-title-color);
+  background-color: var(--primery-text-color);
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--accent-color);
+}
+/* ANDVANTAGES */
+
+.advantages-item {
+  font-style: 400;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.33;
+  text-transform: uppercase;
+  color: var(--secondary-title-color);
+}
+
+.advantages-link {
+  font-style: 400;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--primery-text-color);
+}
+
+/* WORK */
+
+.work-title {
+  font-style: 400;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: var(--secondary-title-color);
+}
+
+/* TEAM */
+
+.team-title {
+  font-style: 400;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: var(--secondary-title-color);
+}
+
+.team-item {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  color: var(--secondary-title-color);
+}
+
+.team-link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.19px;
+  color: var(--primery-text-color);
 }
