@@ -112,6 +112,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
+  text-align: center;
   color: var(--secondary-title-color);
 }
 
@@ -120,5 +121,6 @@ body {
   font-weight: normal;
   font-size: 16px;
   line-height: 1.19px;
+  text-align: center;
   color: var(--primery-text-color);
 }
