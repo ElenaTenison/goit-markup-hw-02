@@ -20,11 +20,11 @@ body {
 /* HEADER */
 
 .header-logo {
+  font-family: inherit;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   color: var(--accent-color);
-  color: var(--secondary-title-color);
 }
 
 .header-link {
@@ -34,11 +34,12 @@ body {
   color: var(--secondary-title-color);
 }
 
-.header-contacts {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  color: var(--primery-text-color);
+.header-item{
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--primery-text-color);
 }
 
 .header-link:hover,
@@ -59,11 +60,13 @@ body {
 }
 .hero-btn:hover,
 .hero-btn:focus {
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
-  color: var(--accent-color);
+  color: var(--primery-title-color);
+  background-color: var(--accent-color);
 }
 /* ANDVANTAGES */
 
@@ -113,5 +116,42 @@ body {
   font-size: 16px;
   line-height: 1.19px;
   text-align: center;
+  color: var(--primery-text-color);
+}
+
+/* FOOTER */
+.footer {
+  background-color: var(--secondary-title-color);
+}
+
+.adrress-item {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.adress-link {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71 
+  color:var(--primery-title-color)
+}
+
+/* PORTFOLIO */
+
+/* GALLERY */
+
+.gallery-title {
+  font-style: 400;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--secondary-title-color);
+}
+.gallery-item {
+  font-size: 16px;
+  line-height: 2;
   color: var(--primery-text-color);
 }
