@@ -1,7 +1,8 @@
 :root {
-  --primery-title-color: #ffffff;
+  --primary-title-color: #ffffff;
   --secondary-title-color: #212121;
-  --primery-text-color: #757575;
+  --primary-text-color: #757575;
+  --secondary-text-color: #ffffff;
   --accent-color: #2196f3;
 }
 
@@ -19,14 +20,14 @@ body {
 
 /* HEADER */
 
-.header-logo {
+.logo {
   font-family: inherit;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   color: var(--accent-color);
 }
-.logo{
+.header-logo{
   color:#000000;
 }
 
@@ -42,7 +43,7 @@ font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
-color: var(--primery-text-color);
+color: var(--primary-text-color);
 }
 
 .header-link:hover,
@@ -58,9 +59,20 @@ color: var(--primery-text-color);
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--primery-title-color);
-  background-color: var(--primery-text-color);
+  color: var(--primary-title-color);
+  background-color: var(--primary-text-color);
 }
+
+.hero-btn{
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: var(--primary-title-color);
+  background-color: var(--accent-color);
+}
+
 .hero-btn:hover,
 .hero-btn:focus {
   font-family: inherit;
@@ -68,7 +80,7 @@ color: var(--primery-text-color);
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
-  color: var(--primery-title-color);
+  color: var(--primary-title-color);
   background-color: var(--accent-color);
 }
 /* ANDVANTAGES */
@@ -85,7 +97,7 @@ color: var(--primery-text-color);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.71;
-  color: var(--primery-text-color);
+  color: var(--primary-text-color);
 }
 
 /* WORK */
@@ -119,7 +131,7 @@ color: var(--primery-text-color);
   font-size: 16px;
   line-height: 1.19px;
   text-align: center;
-  color: var(--primery-text-color);
+  color: var(--primary-text-color);
 }
 
 /* FOOTER */
@@ -127,8 +139,8 @@ color: var(--primery-text-color);
   background-color: var(--secondary-title-color);
 }
 
-.logo-footer{
-  color: var(--primery-title-color);
+.footer-logo{
+  color: var(--secondary-text-color);
 }
 .adrress-item {
   font-style: normal;
@@ -140,8 +152,8 @@ color: var(--primery-text-color);
 .adress-link {
   font-style: normal;
   font-size: 14px;
-  line-height: 1.71 
-  color: var(--primery-title-color);
+  line-height: 1.71;
+  color: var(--secondary-text-color);
 }
 
 /* PORTFOLIO */
@@ -159,15 +171,17 @@ color: var(--primery-text-color);
 .gallery-item {
   font-size: 16px;
   line-height: 2;
-  color: var(--primery-text-color);
+  color: var(--primary-text-color);
 }
 
+.gallery-btn{
+font-family: inherit;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+color: var(--secondary-title-color);
+}
 .gallery-btn:hover,
 .gallery-btn:focus {
-  font-family: inherit;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
-  letter-spacing: 0.06em;
-  color: var(--secondary-title-color);
+  color: var(--secondary-text-color);
   background-color: var(--accent-color);
