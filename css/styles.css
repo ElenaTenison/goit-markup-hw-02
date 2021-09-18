@@ -26,6 +26,9 @@ body {
   line-height: 1.19;
   color: var(--accent-color);
 }
+.logo{
+  color:#000000;
+}
 
 .header-link {
   font-weight: 500;
@@ -124,6 +127,9 @@ color: var(--primery-text-color);
   background-color: var(--secondary-title-color);
 }
 
+.logo-footer{
+  color: var(--primery-title-color);
+}
 .adrress-item {
   font-style: normal;
   font-size: 14px;
@@ -135,7 +141,7 @@ color: var(--primery-text-color);
   font-style: normal;
   font-size: 14px;
   line-height: 1.71 
-  color:var(--primery-title-color)
+  color: var(--primery-title-color);
 }
 
 /* PORTFOLIO */
@@ -155,3 +161,13 @@ color: var(--primery-text-color);
   line-height: 2;
   color: var(--primery-text-color);
 }
+
+.gallery-btn:hover,
+.gallery-btn:focus {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: var(--secondary-title-color);
+  background-color: var(--accent-color);
