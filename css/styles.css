@@ -18,6 +18,7 @@ body {
   list-style: none;
 }
 
+
 /* HEADER */
 
 .logo {
@@ -71,6 +72,7 @@ color: var(--primary-text-color);
   letter-spacing: 0.06em;
   color: var(--primary-title-color);
   background-color: var(--accent-color);
+  cursor: pointer;
 }
 
 .hero-btn:hover,
@@ -180,7 +182,9 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.62;
 color: var(--secondary-title-color);
+cursor: pointer;
 }
+
 .gallery-btn:hover,
 .gallery-btn:focus {
   color: var(--secondary-text-color);
