@@ -136,24 +136,31 @@ body {
 }
 
 /* FOOTER */
-.footer {
+.footer{
   background-color: #2F303A;;
 }
 
 .footer-logo{
   color: var(--secondary-text-color);
 }
-.adrress-item {
+.adrress-item{
   font-style: normal;
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
 }
 
-.adress-link,{
+.adress-link{
   font-style: normal;
   line-height: 1.71;
   color: var(--secondary-text-color);
 }
+.adrress-item:hover,
+.adrress-item:focus,
+.adress-link:hover,
+.adress-link:focus{
+  color: var(--accent-color) ;
+}
+
 
 
 
