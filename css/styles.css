@@ -7,8 +7,11 @@
 }
 
 body {
+  font-size: 14px;
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+  background-color: var(--primary-title-color);
 }
 
 .link {
@@ -34,25 +37,26 @@ body {
 
 .header-link {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   color: var(--secondary-title-color);
 }
 
 .header-item{
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
-color: var(--primary-text-color);
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .header-link:hover,
-.header-link:focus {
+.header-link:focus,
+.current-link {
   color: var(--accent-color);
 }
 
 /* HERO */
+.hero{
+  background-color: #2F303A;
+}
 .hero-title {
   font-weight: 900;
   font-size: 44px;
@@ -61,7 +65,6 @@ color: var(--primary-text-color);
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--primary-title-color);
-  background-color: var(--primary-text-color);
 }
 
 .hero-btn{
@@ -89,7 +92,6 @@ color: var(--primary-text-color);
 
 .advantages-item {
   font-weight: 700;
-  font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--secondary-title-color);
@@ -97,9 +99,7 @@ color: var(--primary-text-color);
 
 .advantages-link {
   font-weight: 700;
-  font-size: 14px;
   line-height: 1.71;
-  color: var(--primary-text-color);
 }
 
 /* WORK */
@@ -133,12 +133,11 @@ color: var(--primary-text-color);
   font-size: 16px;
   line-height: 1.19px;
   text-align: center;
-  color: var(--primary-text-color);
 }
 
 /* FOOTER */
 .footer {
-  background-color: var(--secondary-title-color);
+  background-color: #2F303A;;
 }
 
 .footer-logo{
@@ -146,17 +145,17 @@ color: var(--primary-text-color);
 }
 .adrress-item {
   font-style: normal;
-  font-size: 14px;
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
 }
 
-.adress-link {
+.adress-link,{
   font-style: normal;
-  font-size: 14px;
   line-height: 1.71;
   color: var(--secondary-text-color);
 }
+
+
 
 /* PORTFOLIO */
 
@@ -173,7 +172,6 @@ color: var(--primary-text-color);
 .gallery-item {
   font-size: 16px;
   line-height: 2;
-  color: var(--primary-text-color);
 }
 
 .gallery-btn{
@@ -186,6 +184,7 @@ cursor: pointer;
 }
 
 .gallery-btn:hover,
-.gallery-btn:focus {
+.gallery-btn:focus,
+.current-btn {
   color: var(--secondary-text-color);
   background-color: var(--accent-color);
