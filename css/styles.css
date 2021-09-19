@@ -16,7 +16,9 @@ body {
 
 .link {
   text-decoration: none;
+  color: inherit;
 }
+
 .list {
   list-style: none;
 }
@@ -167,6 +169,7 @@ body {
 /* PORTFOLIO */
 
 /* GALLERY */
+
 
 .gallery-title {
   font-style: 400;
